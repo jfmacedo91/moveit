@@ -11,9 +11,9 @@
 </p>
 
 <div align="center">
-	<img src=".github/Screenshot_inicio.png" style="width: 30%" />
-	<img src=".github/Screenshot_desafio.png" style="width: 30%" />
-	<img src=".github/Screenshot_level.png" style="width: 30%" />
+	<img src=".github/Screenshot_inicio.png" style="width: 300px" />
+	<img src=".github/Screenshot_desafio.png" style="width: 300px" />
+	<img src=".github/Screenshot_level.png" style="width: 300px" />
 </div>
 
 ## Sobre
