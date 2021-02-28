@@ -10,11 +10,11 @@
 	<img alt="License" src="https://img.shields.io/badge/status-Conclu%C3%ADdo-5965E0?style=flat" />
 </p>
 
-<div align="center">
-	<img src=".github/Screenshot_inicio.png" style="width: 300px" />
-	<img src=".github/Screenshot_desafio.png" style="width: 300px" />
-	<img src=".github/Screenshot_level.png" style="width: 300px" />
-</div>
+<p align="center">
+	<img src=".github/Screenshot_inicio.png" alt="inicio" width="300px" />
+	<img src=".github/Screenshot_desafio.png" alt="desafio" width="300px" />
+	<img src=".github/Screenshot_level.png" alt="level" width="300px" />
+</p>
 
 ## Sobre
 
