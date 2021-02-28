@@ -11,7 +11,7 @@ export function Profile() {
     <div className={ styles.profileContainer }>
       <img src="https://github.com/JFMacedo.png" alt="Jean Fernandes de Macedo" />
       <div>
-        <strong>Jean</strong>
+        <strong>Jean Macedo</strong>
         <p>
           <img src="icons/level.svg" alt="levelUp" />
           Level { level }
