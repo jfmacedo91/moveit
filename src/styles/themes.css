@@ -1,0 +1,33 @@
+.light {
+  --background: #F2F3F5;
+  --blue: #5965E0;
+  --blue-dark: #4953B8;
+  --button-failed: #FFF5F5;
+  --button-succeeded: #F7FFF5;
+  --contrast: #FFFFFF;
+  --gray-line: #DCDDE0;
+  --green: #4CD62B;
+  --modal-overlay: #F2F3F5CC;
+  --red: #E83F5B;
+  --shadow: #0000000D;
+  --text: #666666;
+  --text-highlight: #B3B9FF;
+  --title: #2E384D;
+}
+
+.dark {
+  --background: #21242C;
+  --blue: #5965E0;
+  --blue-dark: #4953B8;
+  --button-failed: #29000066;
+  --button-succeeded: #08290066;
+  --gray-line: #595C64;
+  --green: #4CD62B;
+  --modal-overlay: #21252BE6;
+  --red: #E83F5B;
+  --shadow: #00000000;
+  --text: #b3b3b3;
+  --text-highlight: #B3B9FF;
+  --title: #ACB7CD;
+  --contrast: #2C303A;
+}

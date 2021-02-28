@@ -47,7 +47,7 @@ $ cd moveit
 $ npm install
 
 #Você também pode instalar as dependencias com o Yarn
-$ yarn add
+$ yarn install
 ```
 
 Agora é só rodar o projeto:

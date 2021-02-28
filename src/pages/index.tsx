@@ -1,61 +1,42 @@
-import { ChallengeBox } from "../components/ChallengeBox";
-import { CompletedChallenges } from "../components/CompletedChallenges";
-import { Countdown } from "../components/Countdown";
-import { ExperienceBar } from "../components/ExperienceBar";
-import { Profile } from "../components/Profile";
-import { CountdownProvider } from "../contexts/CountdownContext";
-import { ChallengesProvider } from '../contexts/ChallengesContext'
+import Head from "next/head";
+import { useState } from "react";
 
-import { GetServerSideProps } from 'next'
-import Head from 'next/head';
+import styles from '../styles/pages/Login.module.css';
 
-import styles from '../styles/pages/Home.module.css';
+export default function Login() {
+  const [name, setName] = useState('')
 
-interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
-}
-
-export default function Home(props: HomeProps) {
   return (
-    <ChallengesProvider
-      level={ props.level }
-      currentExperience={ props.currentExperience }
-      challengesCompleted={ props.challengesCompleted }
-    >
-      <div className={ styles.container }>
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
-
-        <ExperienceBar />
-        
-        <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
+    <div className={ styles.loginContainer }>
+      <Head>
+        <title>Login | move.it</title>
+      </Head>
+      <div className={ styles.backgroundLogo }></div>
+      <div className={ styles.formLogin}>
+        <form action="/home">
+          <header>
+            <img src="/logo-full-branca.svg" alt="Move.it"/>
+          </header>
+          <main>
+            <h1>Bem-vindo</h1>
+            <div className={ styles.github }>
+              <img src="/icons/github-logo.svg" alt="Logo github"/>
+              <p>Faça login com seu Github para começar</p>
             </div>
-            <div>
-              <ChallengeBox />
+            <div className={ styles.inputContainer }>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                onChange={ (event) => { setName(event.target.value) } }
+              />
+              <button type="submit" disabled={ name.length === 0 }>
+                <i className="fas fa-arrow-right"></i>
+              </button>
             </div>
-          </section>
-        </CountdownProvider>
+          </main>
+        </form>
       </div>
-    </ChallengesProvider>
+    </div>
   )
-}
-
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
-
-  return {
-    props: {
-      level: Number(level),
-      currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted)
-    }
-  }
 }

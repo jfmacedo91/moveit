@@ -2,14 +2,17 @@
   --background: #F2F3F5;
   --blue: #5965E0;
   --blue-dark: #4953B8;
-  --blue-twitter: #2AA9E0;
+  --button-failed: #FFF5F5;
+  --button-succeeded: #F7FFF5;
+  --contrast: #FFFFFF;
   --gray-line: #DCDDE0;
   --green: #4CD62B;
+  --modal-overlay: #F2F3F5CC;
   --red: #E83F5B;
+  --shadow: #0000000D;
   --text: #666666;
   --text-highlight: #B3B9FF;
   --title: #2E384D;
-  --white: #FFFFFF;
 }
 
 @media(max-width: 1080px) {

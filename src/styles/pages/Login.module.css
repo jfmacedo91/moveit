@@ -1,0 +1,82 @@
+.loginContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blue);
+}
+
+.backgroundLogo {
+  background-image: url('/logo-login.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formLogin header > img {
+  margin-bottom: 3rem;
+}
+
+.formLogin main h1 {
+  font-size: 2.25rem;
+  color: #FFFFFF;
+}
+
+.formLogin main .github {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.formLogin main .github img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.formLogin main .github p {
+  width: 14rem;
+  margin-left: 0.5rem;
+  color: var(--text-highlight);
+}
+
+.formLogin main .inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.formLogin main .inputContainer input {
+  width: 20rem;
+  height: 5rem;
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, var(--blue-dark), var(--blue));
+  outline: none;
+}
+
+.formLogin main .inputContainer input:focus {
+  border: 2px solid var(--blue-dark);
+}
+
+.formLogin main .inputContainer button {
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #FFFFFF;
+  background-color: var(--green);
+}
+
+.formLogin main .inputContainer button:disabled {
+  background-color: var(--blue-dark);
+}
