@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+	Move.it
+</h1>
 
-## Getting Started
+<p align="center">
+	<img alt="Author" src="https://img.shields.io/badge/Author-Jean%20Fernandes%20de%20Macedo-5965E0?style=flat" />
+	<img alt="License" src="https://img.shields.io/badge/license-MIT-5965E0?style=flat" />
+	<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JFMacedo/moveit?color=5965E0&style=flat" />
+	<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JFMacedo/moveit?color=5965E0&style=flat" />
+	<img alt="License" src="https://img.shields.io/badge/status-Conclu%C3%ADdo-5965E0?style=flat" />
+</p>
 
-First, run the development server:
+<div align="center">
+	<img src=".github/Screenshot_inicio.png" style="width: 30%" />
+	<img src=".github/Screenshot_desafio.png" style="width: 30%" />
+	<img src=".github/Screenshot_level.png" style="width: 30%" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
+## Sobre
+
+- O projeto [**Move.it**](https://jfmoveit.vercel.app) é uma aplicação baseada na técnica de pomodoro adicionando desafio de que melhoram o bem estar de quem passa muitas hora em frente ao computador.
+- A aplicação foi desenvolvida durante a **Next Level Week 04** da **Rocketseat**.
+
+## Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [React](https://reactjs.org)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+## Como baixar o projeto e rodar em ambiente de desenvolvimento
+
+Para rodas o projeto você precisa antes ter instalado:
+- [Git](https://git-scm.com/)
+- [NodeJS](https://nodejs.org/pt-br/)
+
+```zsh
+#No terminal rode o seguinte comando
+$ git clone https://github.com/JFMacedo/moveit.git
+
+#Entre na pasta do projeto
+$ cd moveit
+
+#Instale as pedendências npm
+$ npm install
+
+#Você também pode instalar as dependencias com o Yarn
+$ yarn add
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora é só rodar o projeto:
+```zsh
+$ npm run dev
+#ou
+$ yarn dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Desenvolvido por [Jean Fernandes de Macedo](https://github.com/JFMacedo) 🖥️
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-Jean%20Fernandes%20de%20Macedo-0077B5?style=flat&logo=Linkedin&link=https://www.linkedin.com/in/jean-fernandes-de-macedo-b843a3194/)](https://www.linkedin.com/in/jean-fernandes-de-macedo-b843a3194/) 
+[![Gmail Badge](https://img.shields.io/badge/-jfmacedo91@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:jfmacedo91@gmail.com)](mailto:jfmacedo91@gmail.com)
